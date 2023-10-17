@@ -1,0 +1,88 @@
+# Arquivos do projeto .NET
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de compilação / Debug
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Arquivos do Visual Studio 2015/Visual Studio 2017
+.vs/
+*.jfm
+
+# Ferramentas de análise de código da Microsoft
+*.codeanalysis/
+
+# Arquivos temporários
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+
+# Arquivos gerados por ferramentas comuns do Visual Studio.
+Generated\ Files/
+
+# Arquivos de log do compilador do Visual C++
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+
+# Outros arquivos e diretórios ignorados.
+ClientBin/
+[Ss]tyle[Cc]op.*
+_ReSharper*/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+
+# Arquivos NuGet 
+packages/* 
+!packages/repositories.config 
+
+# Arquivos Azure Web App publish settings. Comente a próxima linha se você quiser fazer o check-in de seus arquivos de configuração de publicação do web app Azure 
+PublishScripts/
+
+# Arquivos npm 
+node_modules/
+
+# Arquivos Azure Functions vs local settings file 
+local.settings.json
+
+# Arquivos de log 
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório de saída 
+dist/
+
+# Diretório gerado pelo VsCode 
+.vscode/
+
+# Diretório gerado pelo Stryker Mutator 
+.stryker-tmp/
+
